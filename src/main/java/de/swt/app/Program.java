@@ -1,6 +1,8 @@
 package de.swt.app;
 
 import de.swt.events.MainWindowHandler;
+import de.swt.events.MouseWindowHandler;
+import de.swt.ui.Drawing;
 import de.swt.ui.MainWindow;
 
 /**
@@ -14,12 +16,13 @@ public class Program {
     private static MainWindow mainWindow;
     private static MainWindowHandler mainWindowHandler;
 
+
     public static void main(String[] args){
             mainWindowHandler = new MainWindowHandler();
-
             mainWindow = new MainWindow();
             mainWindow.setHandler(mainWindowHandler);
             mainWindow.showFrame();
+
     }
 
 }

@@ -9,9 +9,14 @@ public class MainWindow extends Frame {
 
         public MainWindow(){
             setSize(500,300);
-            setTitle("AWT DEMO");
+            setTitle("Metrik Version 1.0");
+            createWindow();
         }
 
+        public void createWindow() {
+            add(drawArea);
+            //add(mymenu);
+        }
 
         public void showFrame(){
             this.setVisible(true);
