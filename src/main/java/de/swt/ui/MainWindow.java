@@ -1,9 +1,7 @@
 package de.swt.ui;
 
 import de.swt.events.MainWindowHandler;
-
 import java.awt.*;
-
 
 public class MainWindow extends Frame {
 
